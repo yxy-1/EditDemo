@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_height="60dp"
+        android:text="EditDemo"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/ll_center"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_title"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test 111"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@color/error_stroke_color"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test 222"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@color/error_stroke_color"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test 333"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@color/error_stroke_color"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test 4444"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@color/error_stroke_color"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test 555"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@color/error_stroke_color"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test 6666"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@color/error_stroke_color"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test 777"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@color/error_stroke_color"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test 888"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@color/error_stroke_color"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:hint="我是个输入框-EditText"
+        android:background="@color/purple_200"
+        android:padding="10dp"
+        />
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_above="@+id/et_test"
+        android:layout_centerHorizontal="true"
+        android:background="@color/teal_700"/>
+
+
+</RelativeLayout>
